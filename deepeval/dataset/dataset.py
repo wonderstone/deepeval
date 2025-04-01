@@ -796,6 +796,7 @@ class EvaluationDataset:
             Golden(
                 input=golden.input,
                 actual_output=golden.actual_output,
+                expected_output=golden.expected_output,
                 retrieval_context=golden.retrieval_context,
                 context=golden.context,
                 source_file=golden.source_file,
